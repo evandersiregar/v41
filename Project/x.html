@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <link rel="icon" href="https://image.flaticon.com/icons/png/512/13/13973.png" type="image/gif" sizes="16x16">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Welcome to GameON</title>
+  </head>
+  <body>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body, html {
+          height: 100%;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .bg-img {
+          /* The image used */
+          background-image: url("https://images8.alphacoders.com/848/848679.jpg");
+        
+          min-height: 100%;
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        
+        /* Add styles to the form container */
+        .container {
+          position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       width: 350px;
+       height: 500px;
+       box-sizing: border-box;
+          background-color: rgba(0,0,0,.5);
+        }
+        
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+        /* Set a style for the submit button */
+        .btn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 16px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .btn:hover {
+          opacity: 1;
+        }
+        </style>
+        </head>
+        <body>
+          
+
+        <div class="bg-img">
+          <form action="/action_page.php" class="container text-light">
+           <b><h2>Create an Account</h2></b>
+        
+            <label for="email"><b>Username</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <label for="psw"><b>Re-enter Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+
+                <input type="checkbox" name="checkbox" value="check" id="agree" /> I agree to the Terms and Conditions and Privacy Policy
+
+            <button type="submit" class="btn">Create Account</button>
+            
+            
+          </form>
+        </div>
+      </body> 
+       <a class="btn btn-primary bg-dark" href="Inix.html" role="button">Home</a>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  
+</html>
